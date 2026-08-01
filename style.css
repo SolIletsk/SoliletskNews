@@ -1,0 +1,322 @@
+/* ===============================
+
+   Новости Соль-Илецкого района
+
+   style.css
+
+   Стиль сайта в духе 2004–2010
+
+================================= */
+
+body{
+
+    margin:0;
+
+    padding:0;
+
+    background:#d7d7d7;
+
+    font-family:Tahoma, Verdana, Arial, sans-serif;
+
+    font-size:13px;
+
+    color:#222;
+
+}
+
+#wrapper{
+
+    width:900px;
+
+    margin:20px auto;
+
+    background:#ffffff;
+
+    border:1px solid #888;
+
+}
+
+#header{
+
+    background:#0c4fa2;
+
+    color:#fff;
+
+    padding:18px;
+
+    border-bottom:4px solid #083978;
+
+}
+
+#header h1{
+
+    margin:0;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+}
+
+#header p{
+
+    margin:6px 0 0;
+
+    font-size:12px;
+
+}
+
+#menu{
+
+    background:#efefef;
+
+    border-bottom:1px solid #c8c8c8;
+
+    padding:10px;
+
+    text-align:center;
+
+}
+
+#menu a{
+
+    color:#003399;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    margin:0 5px;
+
+}
+
+#menu a:hover{
+
+    text-decoration:underline;
+
+}
+
+#content{
+
+    width:650px;
+
+    float:left;
+
+    padding:20px;
+
+    box-sizing:border-box;
+
+}
+
+#sidebar{
+
+    width:210px;
+
+    float:right;
+
+    padding:15px;
+
+    box-sizing:border-box;
+
+    background:#f7f7f7;
+
+    border-left:1px solid #d8d8d8;
+
+}
+
+#sidebar h3{
+
+    margin-top:0;
+
+    background:#003399;
+
+    color:white;
+
+    padding:6px;
+
+    font-size:14px;
+
+}
+
+#sidebar ul{
+
+    padding-left:18px;
+
+}
+
+#sidebar li{
+
+    margin:6px 0;
+
+}
+
+#sidebar a{
+
+    color:#003399;
+
+    text-decoration:none;
+
+}
+
+#sidebar a:hover{
+
+    text-decoration:underline;
+
+}
+
+.news{
+
+    margin-bottom:25px;
+
+}
+
+.news h3{
+
+    margin:0;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+.news h3 a{
+
+    color:#003399;
+
+    text-decoration:none;
+
+}
+
+.news h3 a:hover{
+
+    text-decoration:underline;
+
+}
+
+.date{
+
+    display:block;
+
+    margin-top:5px;
+
+    margin-bottom:10px;
+
+    color:#777;
+
+    font-size:11px;
+
+}
+
+.news p{
+
+    line-height:1.45;
+
+}
+
+hr{
+
+    border:none;
+
+    border-top:1px solid #dcdcdc;
+
+    margin:18px 0;
+
+}
+
+#footer{
+
+    clear:both;
+
+    text-align:center;
+
+    font-size:11px;
+
+    color:#555;
+
+    padding:18px;
+
+    background:#efefef;
+
+    border-top:1px solid #c8c8c8;
+
+}
+
+a{
+
+    color:#003399;
+
+}
+
+a:visited{
+
+    color:#551A8B;
+
+}
+
+table{
+
+    border-collapse:collapse;
+
+}
+
+img{
+
+    border:0;
+
+}
+
+/* Старый вид выделения */
+
+::selection{
+
+    background:#1f5db6;
+
+    color:white;
+
+}
+
+/* Для ощущения старого браузера */
+
+h2{
+
+    color:#003399;
+
+    border-bottom:2px solid #dcdcdc;
+
+    padding-bottom:6px;
+
+}
+
+h3{
+
+    color:#003399;
+
+}
+
+/* Небольшое сжатие текста */
+
+p{
+
+    margin-top:8px;
+
+    margin-bottom:8px;
+
+}
+.article-image{
+
+    display:block;
+
+    width:600px;
+
+    max-width:100%;
+
+    margin:15px auto;
+
+    border:1px solid #999;
+
+    padding:4px;
+
+    background:#fff;
+
+}
